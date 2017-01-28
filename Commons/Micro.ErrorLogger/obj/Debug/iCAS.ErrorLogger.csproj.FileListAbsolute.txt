@@ -1,0 +1,17 @@
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.dll
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.pdb
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.dll
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.dll
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.dll
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\iCAS.ErrorLogger.csprojResolveAssemblyReference.cache
+D:\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.dll
+D:\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.pdb
+D:\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.dll
+D:\ICAS-LATEST-TSDC\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.pdb
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.dll
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.ErrorLogger\bin\Debug\Micro.ErrorLogger.pdb
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.dll
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.ErrorLogger\obj\Debug\Micro.ErrorLogger.pdb

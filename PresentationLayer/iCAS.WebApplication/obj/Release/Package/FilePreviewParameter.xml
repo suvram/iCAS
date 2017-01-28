@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="tsdcollege.in" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="tsdcollege.in/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="ICAS_DEV_LOCAL-Web.config Connection String" description="" value="Server=KISHOR-NBUK-01\MSSQLSERVER2012;database=tsdcollege_icas;uid=sa;pwd=maa@1234" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_DEV_LOCAL']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_DEV_LOCAL_2-Web.config Connection String" description="" value="Server=KC-HO-IT-001\MSSQLEXPRESS14;database=tsdcollege_icas;uid=sa;pwd=maa@1234" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_DEV_LOCAL_2']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_DEV_LOCAL_TEST-Web.config Connection String" description="" value="Server=.;database=testICAS;uid=sa;pwd=urit" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_DEV_LOCAL_TEST']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_PRDN-Web.config Connection String" description="" value="server=184.168.194.75;database=tsdcollege_icas;uid=tsdc;pwd=tsdc@1234" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_PRDN']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_TEST-Web.config Connection String" description="" value="server=172.25.3.41;database=testicas;uid=icas;pwd=icas@1234" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_TEST']/@connectionString" />
+  </parameter>
+  <parameter name="MyDB-Web.config Connection String" description="" value="..." tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kctri\\Source\\Workspaces\\TEST_APPLN\\trunk\\ICAS-LATEST-TSDC\\PresentationLayer\\Micro\.WebApplication\\Micro\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDB']/@connectionString" />
+  </parameter>
+</parameters>

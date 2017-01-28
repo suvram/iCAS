@@ -1,0 +1,67 @@
+﻿#StaffProfiles
+{
+    list-style-type: none;
+    margin: 10px 0 0 10px;
+}
+
+.FullWidthRow
+{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#ContentPlaceHolder1_optCategory
+{
+    width: 100%;
+}
+
+    
+.StaffDetails
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 200px;
+    /*background-color: indianred;*/
+}
+
+    .StaffDetails li
+    {
+        display: block;
+        float: left;
+        width: 100%;
+        
+    }
+
+        .StaffDetails li.theName
+        {
+            display: block;
+            float: left;
+            width: 30%;
+            background-color: #ccc;
+            padding: 2px 1%;
+            /*border: solid 1px green;*/
+        }
+
+        .StaffDetails li.theValue
+        {
+            display: block;
+            float: left;
+            width: 61%;
+            border-bottom: solid 1px #ccc;
+            padding: 2px 1%;
+            /*border: solid 1px red;*/
+        }
+
+        /*  Define the background color for all the ODD background rows  */
+    .StaffDetails li:nth-child(odd)
+    {
+        /*background: #b8d1f3;*/
+    }
+    /*  Define the background color for all the EVEN background rows  */
+    .StaffDetails li:nth-child(even)
+    {
+        /*background: #dae5f4;*/
+    }

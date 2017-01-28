@@ -1,0 +1,17 @@
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.dll
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.pdb
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.dll
+C:\Users\kctri\Source\Workspaces\TEST_APPLN\trunk\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.dll
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.dll
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.pdb
+D:\Kishor\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\iCAS.Objects.csprojResolveAssemblyReference.cache
+D:\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.dll
+D:\ICAS-LATEST-TSDC\Commons\Micro.Objects\bin\Debug\Micro.Objects.pdb
+D:\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.dll
+D:\ICAS-LATEST-TSDC\Commons\Micro.Objects\obj\Debug\Micro.Objects.pdb
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.Objects\bin\Debug\Micro.Objects.dll
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.Objects\bin\Debug\Micro.Objects.pdb
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.Objects\obj\Debug\Micro.Objects.dll
+D:\Kishor\iCampusAutomationSystem\Commons\Micro.Objects\obj\Debug\Micro.Objects.pdb

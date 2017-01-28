@@ -1,0 +1,109 @@
+﻿@import 'Menu.css';
+@import 'font-awesome.min.css';
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 0px;
+	padding: 10px;
+	width: 100%;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-logo {
+	margin-top: -10px;
+	margin-left: -10px;
+	height: 70px;
+}
+
+.jumbotron {
+	 height: 300px;
+	 border: solid 1px red;
+	 height: auto;
+	 display: block;
+	 margin-bottom: 10px;
+
+}
+
+
+
+.radioboxlist radioboxlistStyle {
+	font-size: x-large;
+	padding-right: 20px;
+}
+
+.radioboxlist label {
+	color: #3E3928;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	clear: left;
+	margin-right: 10px;
+	padding: 0px 2px;
+}
+
+	.radioboxlist label:hover {
+		color: #CC3300;
+		background: #D1CFC2;
+	}
+
+input:checked + label {
+	color: #CC3300;
+	background: #D1CFC2;
+}
+
+.gridViewEstbRowStyle {
+	border: solid 1px #eef9d3;
+}
+
+.ItemStyle_DT {
+	width: 15%;
+	height: 14px;
+	padding: 1px;
+	text-align: center;
+	background-color: #fff;
+	font-family: Verdana, Trebuchet MS,"Segoe UI";
+	font-size: 0.9em;
+}
+
+#StaffZone > ul,
+#EstblmntZone ul,
+#StudentZone > ul
+{
+	display:block;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 200px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"] {
+	max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		margin-top: 20px;
+		height: 100px;
+	}
+
+	.body-content {
+		padding: 0;
+	}
+
+	.main-logo {
+		height: 70px;
+		border: solid 1px green;
+	}
+	 
+}

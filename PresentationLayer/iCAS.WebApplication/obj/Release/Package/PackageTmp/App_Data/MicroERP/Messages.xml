@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Messages>
+	<!--Calculate Brokerage-->
+	<FailureMessage id="1101" code="KO_CALCULATE_FAILED"  text="Failed to calculate brokerage." />
+
+	<SuccessMessage id="12111" code="OK_COMMISSION_CALCULATED"  text="Commission Calculated Successfully." />
+	<SuccessMessage id="12112" code="OK_MONTHLY_INCENTIVE_CALCULATED"  text="Monthly Incentive Calculated Successfully." />
+	<SuccessMessage id="12113" code="OK_YEARLY_INCENTIVE_CALCULATED"  text="Yearly Incentive Calculated Successfully." />
+
+	<!--CUSTOMER-->
+	<FailureMessage id="1104" code="KO_CUSTOMER_DUPLICATE"  text="Another customer with the same name  is found whose Father's name and Date of Birth is also same." />
+
+	<!--CUSTOMERACCOUNT-->
+	<FailureMessage id="2200" code="INVALID_POLICY_TYPE_DC"  text="You can't select a policy of One Time nature while selecting a Daily Account." />
+	<FailureMessage id="2201" code="INVALID_POLICY_MODE"  text="Invalid Policy Mode." />
+	<FailureMessage id="2202" code="INVALID_INSTALLMENT_AMOUNT"  text="#B#Invalid Installment Amount#/B#. \n\nIf the policy is of recurring in nature then the installment amount must be 100 or 150 minimum monthly. \n\n If the policy is of one time in nature then installment amount must be 1000 minimum per annum and mulitple of 100." />
+	<FailureMessage id="2203" code="EXCESS_INSTALLMENT_AMOUNT"  text="Excess payment.\n\nYou can't pay more than {0} installments." />
+	<FailureMessage id="2204" code="EXCESS_INSTALLMENT_NUMBER"  text="Invalid Installment Amount.\n\nInstallment amount must be multiple of  {0}." />
+	<FailureMessage id="2205" code="MORE_THAN_PAYABLE"  text="Excess Installment Amount.\n\nTotal Installment Amount Payable is " />
+	<FailureMessage id="2206" code="POLICY_DISCONTINUED"  text="Discontinued account. The transaction is locked till policy revival." />
+	<FailureMessage id="2207" code="LAST_DUE_DATEOFPAYMENT"  text="This customer can't pay any more installments. The grace period of last payment is lapsed." />
+	<FailureMessage id="2207" code="APPLIED_FOR_PREMATURITY"  text="The customer account is applied for Pre-Maturity. You can't do any transactions." />
+
+	<!--SCROLL-->
+	<FailureMessage id="2300" code="INVALID_SCROLL_TO_DELETE"  text="You can't delete this scroll. Receipts might have been accepted against this scroll." />
+
+	<!--CUSTOMERLOANPAYMENT-->
+	<FailureMessage id="3101" code="KO_MAX_LOAN_CAN_AVAIL"  text="Loan amount exceeds maximum limit." />
+	<FailureMessage id="3102" code="KO_NOT_ELIGIBLE" text="The customers who have deposited two or more installments can only avail a loan."/>
+	<FailureMessage id="3103" code="KO_HAS_ACITVE_LOAN" text="The customer has an active loan. Click on View Active Loan for more informations."/>
+
+	<!--CUSTOMERLOANRECOVERY-->
+	<FailureMessage id="40001" code="KO_RECOVERY_LESS_THAN_INTEREST" text="Recovery amount must be equal or greater than interest amount."/>
+	<FailureMessage id="40002" code="KO_RECOVERY_GREATER_THAN_TOTALAMOUNT" text="Recovery amount can't greater than the total due amount."/>
+	<FailureMessage id="40005" code="KO_RECORD_FAILED_TO_INSERT" text="Record failed to insert."/>
+
+	<!--MEDICLAIM APPLICATION-->
+	<FailureMessage id="6001" code="KO_APPROVED_CANNOT_EDIT" text="Sorry this application was already approved, so you can't edit."/>
+	<FailureMessage id="6002" code="KO_REJECTED_CANNOT_EDIT" text="Sorry this application was already rejected, so you can't edit."/>
+	<FailureMessage id="6003" code="KO_NO_ELIGIBLE_ACCOUNTS_FOUND" text="Sorry, You have no eligible accounts avail for mediclaim, so you can't apply."/>
+	<FailureMessage id="6004" code="KO_DISCONTINUED_ACCOUNT" text="Discontinued Policy, so you can't apply."/>
+	<FailureMessage id="6005" code="KO_MEDICLAIM_NOT_ALLOWED" text="Mediclaim not allowed, so you can't apply."/>
+	<FailureMessage id="6006" code="KO_ACCOUNTPOLICY_NOT_SATISFIED" text=", account not satisfy as Company policy for apply mediclaim."/>
+	<FailureMessage id="6007" code="KO_ALL_FD_ACCOUNTPOLICIES_NOT_SATISFIED" text="All FD accounts are not satisfy as Company policy for mediclaim."/>
+	<FailureMessage id="6008" code="KO_ALL_RD_ACCOUNTPOLICIES_NOT_SATISFIED" text="All RD accounts are not satisfy as Company policy for mediclaim"/>
+	<FailureMessage id="6009" code="KO_APPROVED_CANNOT_APPLY" text="Sorry, You have a application with --Approved-- status, so you can't apply again."/>
+	<FailureMessage id="6010" code="KO_PENDING_CANNOT_APPLY" text="Sorry, You have a application with --Pending-- status, so you can't apply again."/>
+
+	<!--MEDICLAIM APPROVAL-->
+	<FailureMessage id="5001" code="KO_CORRECT_EMPLOYEE_CODE" text="Could not found any employee as this code."/>
+	<SuccessMessage id="13001" code="OK_MEDICLAIM_APPLICATION_REJECTED" text="Mediclaim application rejected sucessfully." />
+
+	<!--CHANGEFIELDCHAIN-->
+	<SuccessMessage id="12001" code="OK_FIELD_CHAIN_ADDED" text="Field Chain added successfully." />
+	<SuccessMessage id="12002" code="OK_FIELD_CHAIN_UPDATED"  text="Field Chain updated successfully." />
+	<SuccessMessage id="12003" code="OK_FIELD_CHAIN_DELETED"  text="Field Chain deleted successfully." />
+
+	<FailureMessage id="22001" code="KO_FIELD_CHAIN_ADDED" text="Failed to add Field Chain." />
+	<FailureMessage id="22002" code="KO_FIELD_CHAIN_UPDATED"  text="Failed to updated Field Chain." />
+	<FailureMessage id="22003" code="KO_FIELD_CHAIN_DELETED"  text="Failed to delete Field Chain." />
+
+	<!--FIELDFORCES-->
+	<SuccessMessage id="32001" code="OK_FIELD_FORCE_ADDED" text="Field Force added successfully." />
+	<SuccessMessage id="32002" code="OK_FIELD_FORCE_UPDATED"  text="Field Force updated successfully." />
+	<SuccessMessage id="32003" code="OK_FIELD_FORCE_DELETED"  text="Field Force deleted successfully." />
+
+	<FailureMessage id="42001" code="KO_FIELD_FORCE_ADDED" text="Failed to add Field Force." />
+	<FailureMessage id="42002" code="KO_FIELD_FORCE_UPDATED"  text="Failed to updated Field Force." />
+	<FailureMessage id="42003" code="KO_FIELD_FORCE_DELETED"  text="Failed to delete Field Force." />
+
+	<!--FIELDFORCEPROFILE-->
+	<FailureMessage id="2201" code="FIELDFORCE_NOT_SELECTED"  text="Select Field Force to view Profile." />
+
+	<!--EMPLOYEE PROFILE-->
+	<FailureMessage id="2202" code="EMPLOYEE_NOT_SELECTED"  text="Select Employee to view Profile." />
+  <FailureMessage id="2205" code="EMPLOYEE_DUP_COMPONENT"  text="Sorry This Component is Exist in the List." />
+  <FailureMessage id="2206" code="EMPLOYEE_NOT_SELECTED_THEN"  text="Please Select a Employee" />
+  
+	<GeneralMessage id="2203" code="PASSINGYEAR_CAN_NOT_GREATER_CURRENTYEAR"  text="Passing Year can't be Greater than Current Year." />
+	<GeneralMessage id="2204" code="ONLY_MOBILE_NUMBER_RANGE"  text="Mobile no range should between 10-12 digits." />
+	<!--PREMATURITY-->
+	<SuccessMessage id="321" code="OK_PREMATURITY_ADDED"  text="Prematurity Application applied successfully." />
+	<SuccessMessage id="322" code="OK_PREMATURITY_UPDATED"  text="Prematurity Application Updated successfully." />
+	<SuccessMessage id="323" code="OK_PREMATURITY_APPROVED"  text="Prematurity Amount Approved successfully." />
+	<SuccessMessage id="324" code="OK_PREMATURITY_REJECTED"  text="Prematurity Amount Rejected successfully.." />
+	<SuccessMessage id="325" code="OK_PREMATURITY_SANCTIONED"  text="PreMaturity Payment successfully." />
+
+	<FailureMessage id="1012" code="KO_PREMATURITY_ADDED" text="Failed to apply Prematurity Application." />
+	<FailureMessage id="1013" code="KO_PREMATURITY_UPDATED" text="Failed to Update Prematurity Application." />
+	<FailureMessage id="1014" code="KO_PREMATURITY_APPROVED" text="Failed to Approve the Maturity." />
+	<FailureMessage id="1015" code="KO_PREMATURITY_REJECTED" text="Failed to Reject the Maturity." />
+	<FailureMessage id="1016" code="KO_PREMATURITY_SANCTIONED" text="Failed to Payment The PreMaturity." />  
+  <!-- Student Message-->
+  <SuccessMessage id="326" code="OK_STUDENT_ADDED"  text="Application For Admission applied successfully."></SuccessMessage>
+  <SuccessMessage id="327" code="OK_STUDENT_UPDATED"  text="Updation of Student details done successfully."></SuccessMessage>
+  <SuccessMessage id="328" code="OK_DATA_UPDATED"  text="Updation of Record Done Successfully."></SuccessMessage>
+  <SuccessMessage id="329" code="OK_DATA_ADDED"  text="Record Submitted Successfully."></SuccessMessage>
+  <SuccessMessage id="329" code="OK_DATA_DELETED"  text="Record Deleted Successfully."></SuccessMessage>
+  
+  <FailureMessage id="1017" code="KO_STUDENT_ADDED" text="Failed to Apply Admission." />
+  <FailureMessage id="1018" code="KO_STUDENT_UPDATED" text="Failed to Update Student Application." />
+  <FailureMessage id="1019" code="KO_DATA_ADDED" text="Failed to Submit The Data." />
+  <FailureMessage id="1020" code="KO_DATA_UPDATED" text="Failed to Update Data." />
+  <FailureMessage id="1021" code="KO_DATA_DELETED" text="Failed to Delete The Record." />
+
+  <FailureMessage id="1022" code="ONE_MINOR_SUBJECT" text="!!! Please Choose One Minor Subject!!!" />
+  <FailureMessage id="1023" code="ONE_MAJOR_SUBJECT" text="!!! Please Choose One Major Subject!!!" />
+  <FailureMessage id="1024" code="ONE_PASS_SUBJECT" text="!!! Please Choose One Pass Subject!!!" />
+  <FailureMessage id="1025" code="FOUR_ELECTIVE_SUBJECT" text="!!! Please Choose Four no of Elective Subjects!!!" />
+  <FailureMessage id="1026" code="TWO_ELECTIVE_SUBJECT" text="!!! Please Choose Two no of Elective Subjects!!!" />
+  
+  <FailureMessage id="1027" code="ONE_HONS_SUBJECT" text="!!! Please Choose One Hons. Subjects!!!" />
+  <FailureMessage id="1028" code="TWO_PASS_SUBJECT" text="!!! Please Choose Two no of Pass Subjects!!!" />
+
+  <FailureMessage id="1029" code="SEAT_NOT_AVAILBLE" text=" !!! Sorry No More Seat availble for The Current Session >>>" />
+  <FailureMessage id="1030" code="KO_DATA_UPDATED_STUDENT_IN_OTHER_SECTION" text=" !!! Sorry Make a valid Section>>>" />
+  <!--GUARANTORLOAN-->
+	<SuccessMessage id="311" code="OK_LOAN_ADDED" text="Loan applied successfully." />
+	<SuccessMessage id="312" code="OK_LOAN_UPDATED"  text="Loan updated successfully." />
+	<SuccessMessage id="313" code="OK_LOAN_DELETED"  text="Loan deleted successfully." />
+	<SuccessMessage id="314" code="OK_LOAN_APPROVED"  text="Loan Approved successfully." />
+	<SuccessMessage id="315" code="OK_LOAN_REJECTED"  text="Loan Rejected successfully." />
+	<SuccessMessage id="316" code="OK_LOAN_INSTALLMENT_PAYMENT"  text="Installment Payment successfully." />
+
+	<FailureMessage id="1001" code="KO_LOAN_APPLIED" text="Failed to apply for loan." />
+	<FailureMessage id="1002" code="KO_LOAN_UPDATED" text="Failed to update the loan." />
+	<FailureMessage id="1003" code="KO_LOAN_DELETED" text="Failed to delete the loan." />
+	<FailureMessage id="1004" code="KO_LOAN_CANT_UPDATE" text="Can't edit any processed loan." />
+	<FailureMessage id="1005" code="KO_LOAN_APPROVED" text="Failed to Approve the loan." />
+	<FailureMessage id="1006" code="KO_LOAN_REJECTED" text="Failed to Reject the loan." />
+	<FailureMessage id="1007" code="KO_LOAN_INSTALLMENT_PAYMENT" text="Failed to Payment The Installment." />
+
+	<!--POLICYSURRENDER-->
+	<SuccessMessage id="317" code="OK_POLICY_SURRENDER"  text="Policy Surrender successfully." />
+	<FailureMessage id="1008" code="KO_POLICY_SURRENDER" text="Failed to Surrender The Policy." />
+
+	<!--REVIVAL-->
+	<SuccessMessage id="319" code="OK_ACCOUNT_REVIVIED"  text="Selected Customer Account is revived successfully." />
+	<FailureMessage id="1010" code="KO_ACCOUNT_REVIVIED" text="Failed to Revive The Customer Account." />
+
+	<!--DCRECEIPTCANCELLATION-->
+	<SuccessMessage id="320" code="OK_RECEIPT_CANCELLED"  text="Selected Receipt Canceled  successfully." />
+	<FailureMessage id="1011" code="KO_RECEIPT_CANCELLED" text="Already Receipt Canceled Before." />
+
+	<!--MATURITYPAYMENT-->
+	<SuccessMessage id="318" code="OK_MATURITY_SANCTIONED"  text="Maturity Payment successfully." />
+	<FailureMessage id="1009" code="KO_MATURITY_SANCTIONED" text="Failed to Payment The Maturity." />
+
+	<!--AccountSELLING-->
+	<SuccessMessage id="30013" code="OK_ALREADY_SOLDACCOUNT" text="Already Sold Account." />
+
+	<!--DCDEVICES-->
+	<SuccessMessage id="31000001" code="OK_DCDEVICE_ADDED" text="DC-Device added successfully." />
+	<SuccessMessage id="31000002" code="OK_DCDEVICE_UPDATED" text="DC-Device updated successfully." />
+	<SuccessMessage id="31000003" code="OK_DCDEVICE_DELETED" text="DC-Device Deleted successfully." />
+
+	<FailureMessage id="3000000001" code="KO_DCDEVICE_ADDED" text="Failed to add DC-Device." />
+	<FailureMessage id="3000000002" code="KO_DCDEVICE_UPDATED" text="Failed to update the DC-Device." />
+	<FailureMessage id="3000000003" code="KO_DCDEVICE_DELETED" text="Failed to Delete the DC-Device." />
+	<!--CRMOffICESETTINGS-->
+	<SuccessMessage id="8011" code="OK_POLICY_TYPE_UPDATED" text="Policy Types Updated SucessFully." />
+	<SuccessMessage id="8012" code="OK_BROKERAGE_UPDATED" text="Brokerage Updated SucessFully." />
+	<SuccessMessage id="8013" code="OK_REBATE_UPDATED" text="Rebate Updated SucessFully." />
+
+	<FailureMessage id="80001" code="KO_POLICY_TYPE_UPDATED" text="Failed to update the Policy Types." />
+	<FailureMessage id="80002" code="KO_BROKERAGE_UPDATED" text="Failed to update the Brokerage Types." />
+	<SuccessMessage id="80003" code="KO_REBATE_UPDATED" text="Failed to update the Rebate Types." />
+	<FailureMessage id="80004" code="POLICY_NOT_SELECTED" text="Please Select a Policy Types." />
+	<FailureMessage id="80005" code="BROKERAGE_NOT_SELECTED" text="Please Select a Brokerage Types." />
+	<FailureMessage id="80006" code="REBATE_NOT_SELECTED" text="Please Select a Rebate Types." />
+	<FailureMessage id="80007" code="DATE_NOT_SELECTED" text="Please Select a Date." />
+	<!--DCACCOUNTS-->
+	<SuccessMessage id="40000011" code="OK_DCACCOUNT_ADDED" text="DcAccount applied successfully." />
+	<SuccessMessage id="40000012" code="OK_DCACCOUNT_UPDATED" text="DcAccount updated successfully." />
+	<SuccessMessage id="40000013" code="OK_DCACCOUNT_DELETED" text="DcAccount deleted successfully." />
+
+	<FailureMessage id="40000000001" code="KO_DCACCOUNT_APPLIED" text="Failed to apply for DCACCOUNT." />
+	<FailureMessage id="40000000002" code="KO_DCACCOUNT_UPDATED" text="Failed to update the DCACCOUNT." />
+	<FailureMessage id="40000000003" code="KO_DCACCOUNT_DELETED" text="Failed to Delete the DCACCOUNT." />
+
+	<!--CHANGEINTRODUCER-->
+	<SuccessMessage id="511" code="OK_CHANGEINTRODUCER_ADDED" text="Introducer changed successfully." />
+
+	<!--CHANGEPOLICYTYPE-->
+	<SuccessMessage id="10101" code="OK_CHANGEPOLICYTYPE_UPDATE" text="PolicyType updated successfully." />
+
+	<FailureMessage id="10102" code="KO_CHANGEPOLICYTYPE_UPDATE" text="Failed to updated PolicyType." />
+
+	<!--DCCOLLECTOR-->
+	<SuccessMessage id="411" code="OK_DCCOLLECTOR_ADDED" text="DcCollector applied successfully." />
+	<SuccessMessage id="412" code="OK_DCCOLLECTOR_UPDATED" text="DcCollector updated successfully." />
+	<SuccessMessage id="413" code="OK_DCCOLLECTOR_DELETED" text="DcCollector Deleted successfully." />
+
+	<FailureMessage id="4001" code="KO_DCCOLLECTOR_APPLIED" text="Failed to apply for DcCollector." />
+	<FailureMessage id="4002" code="KO_DCCOLLECTOR_UPDATED" text="Failed to update the DcCollector." />
+	<FailureMessage id="4003" code="KO_DCCOLLECTOR_DELETED" text="Failed to Delete the DcCollector." />
+	<FailureMessage id="4004" code="KO_DCCOLLECTOR_DUPLICATE"  text="Another dccollecotr with the same name  is found whose Father's name and Date of Birth is also same." />
+	<!--EMPLOYEE-->
+	<FailureMessage id="9001" code="KO_EMPLOYEE_DUPLICATE"  text="Another employee with the same name  is found whose Father's name and Date of Birth is also same." />
+
+	<!--LEAVEAPPLICATIONS-->
+
+	<SuccessMessage id="6000011" code="OK_LEAVEAPPLICATION_ADDED" text="LeaveApplication applied successfully." />
+	<SuccessMessage id="6000012" code="OK_LEAVEAPPLICATION_UPDATED" text="LeaveApplication updated successfully." />
+	<SuccessMessage id="6000013" code="OK_LEAVEAPPLICATION_DELETED" text="LeaveApplication deleted successfully." />
+	<SuccessMessage id="6000014" code="OK_LEAVEAPPLICATION_APRPOVED" text="successfully approved the leave application." />
+
+	<FailureMessage id="600000003" code="KO_LEAVEAPPLICATION_DELETED" text="Leave Application n't Cancelled Due to Approved/Cancelled." />
+	<FailureMessage id="600000001" code="KO_INSUFFICIENT_LEAVEBALANCE"  text="Insufficient Leave Balance." />
+	<SuccessMessage id="600000004" code="KO_LEAVEAPPLICATION_APRPOVED" text="Sorry! failed to approve / reject the leave application." />
+
+	<!--ONE TIME CERTIFICATE-->
+	<SuccessMessage id="60011" code="OK_CERTIFICATE_ADDED" text="Certificate applied SucessFully." />
+	<SuccessMessage id="60012" code="OK_CERTIFICATE_ISSUED" text="Certificate Issued Successfully." />
+	<SuccessMessage id="60013" code="OK_CERTIFICATE_ALREADY_ISSUED" text="Certificate Already Issued." />
+	<SuccessMessage id="60014" code="OK_DUPLICATE_CERTIFICATE_ADDED" text="Duplicate Certificate Issued SucessFully." />
+
+	<FailureMessage id="60001" code="KO_CERTIFICATE_APPLIED" text="Certificate Already Inserted." />
+	<FailureMessage id="60002" code="INTRODUCER_RANK_NOT_SELECTED"  text="Select IntroducerRank." />
+	<FailureMessage id="60003" code="INTRODUCER_NAME_NOT_SELECTED"  text="Select IntroducerName." />
+	<FailureMessage id="60004" code="ONETIMECERTIFICATE_NOT_SELECTED"  text="Select OneTime Certificate." />
+	<!--LOGIN-->
+	<FailureMessage id="0000" code="KO_UNKNOWN_ERROR" text="An unknown error occured!" />
+	<FailureMessage id="9001" code="KO_USER_NOT_EXIST" text="This user #B#'{0}'#/B# doesn't exists in our record." />
+	<FailureMessage id="9002" code="KO_PWD_MISMATCH" text="Please enter a #B#correct#/B# password." />
+	<FailureMessage id="9003" code="KO_USER_NO_COMP_CODE" text="This user doesn't have a company code." />
+	<FailureMessage id="9004" code="KO_USER_NO_COMPANY" text="This user doesn't belongs to any company" />
+	<FailureMessage id="9004" code="KO_COMPANY_NOT_SELECTED" text="This given user doesn't belongs to the selected company." />
+
+	<!--PASSWORD-FORGET_CHANGE_TRANSACTION-->
+	<SuccessMessage id="9006" code="PASSWORD_CHANGED"  text="Password Changed Successfully." />
+	<SuccessMessage id="9009" code="PASSWORD_RESET"  text="The Password has been reseted successfully." />
+	<SuccessMessage id="9010" code="PASSWORD_SEND"  text="Password has sent to your email address." />
+	<SuccessMessage id="9012" code="PASSWORD_SAVED"  text="Password saved successfully." />
+
+	<FailureMessage id="9005" code="PASSWORD_MISMATCH" text="Password and Confirm Password must be same." />
+	<FailureMessage id="9007" code="FORGOT_USERID" text="User id is not found"/>
+	<FailureMessage id="9008" code="PASSWORD_NOT_RESET" text="Password reset failed." />
+	<FailureMessage id="9011" code="PASSWORD_NOT_SEND" text="Password sending failed."/>
+	<FailureMessage id="9013" code="PASSWORD_NOT_SAVE" text="Password not Saved."/>
+
+	<!--MIS INTEREST PAYMENT-->
+	<SuccessMessage id="10000" code="OK-PAYMENT"  text="Payment made successfully." />
+
+	<FailureMessage id="11000" code="KO-PAYMENT" text="Failed To Made The Payment."/>
+
+	<!--CONTACTUS-->
+	<OtherMessage id="9014" code="MICRO_ADDRESS" text="Micro House,B-320,SaheedNagar,Bhubaneswar-751007,Odisha,India"/>
+	<OtherMessage id="9015" code="MICRO_EMAIL_ADDRESS" text="...........@....."/>
+	<OtherMessage id="9016" code="MICRO_PHONE" text="+91-0674-...."/>
+	<SuccessMessage id="9017" code="EMAIL_SEND"  text="Email send successfully." />
+	<FailureMessage id="9018" code="EMAIL_SEND_FAIL" text="Email sending failed."/>
+
+	<!--USERPROFILE-->
+	<FailureMessage id="9021" code="INVALID_IMAGE_FILE" text="Select only jpg, jpeg, gif, png or bmp file"/>
+	<GeneralMessage id="9051" code="INVALID_PHONE" text="Enter phone Number with in 7-13 digits"/>
+	<GeneralMessage id="9052" code="INVALID_MOBILE" text="Enter mobile Number with in 10-12 digits"/>
+
+
+	<!--MENUITEMS-->
+	<FailureMessage id="9025" code="DUPLICATE_RECORD" text="Duplicate Record Found in The Database."/>
+
+	<!--CHANGE NOMINEE -->
+	<SuccessMessage id="9022" code="OK_NOMINEE_CHANGED" text="Nominee changed successfully." />
+	<FailureMessage id="9024" code="KO_NOMINEE_CHANGED" text="Failed to change Nominee."/>
+
+	<!--CHANGE NOMINEE -->
+	<SuccessMessage id="250089" code="OK_DC_RECEIPT" text="Inserted successfully." />
+	<FailureMessage id="260089" code="KO_DC_RECEIPT" text="Fail To Inserted."/>
+	<!--BROKERAGE FEE PAYMENT -->
+	<FailureMessage id="260090" code="KO_BROKERAGE_FEE_PAYMENT" text="Failed To Insert Brokerage Fee Payment."/>
+
+	<!--ACCOUNT HEADS-->
+	<SuccessMessage id="666001" code="OK_ACCOUNT_HEAD_ADDED" text="AccountHead added successfully." />
+	<SuccessMessage id="666002" code="OK_ACCOUNT_HEAD_UPDATED"  text="AccountHead updated successfully." />
+	<SuccessMessage id="666003" code="OK_ACCOUNT_HEAD_DELETED"  text="AccountHead deleted successfully." />
+
+	<FailureMessage id="777001" code="KO_ACCOUNT_HEAD_ADDED" text="Failed to add AccountHead." />
+	<FailureMessage id="777002" code="KO_ACCOUNT_HEAD_UPDATED"  text="Failed to updated AccountHead." />
+	<FailureMessage id="777003" code="KO_ACCOUNT_HEAD_DELETED"  text="Failed to delete AccountHead." />
+
+	<!--ACCOUNT NAMES-->
+	<SuccessMessage id="888001" code="OK_ACCOUNT_ADDED" text="Account added successfully." />
+	<SuccessMessage id="888002" code="OK_ACCOUNT_UPDATED"  text="Account updated successfully." />
+	<SuccessMessage id="888003" code="OK_ACCOUNT_DELETED"  text="Account deleted successfully." />
+
+	<FailureMessage id="999001" code="KO_ACCOUNT_ADDED" text="Failed to add Account." />
+	<FailureMessage id="999002" code="KO_ACCOUNT_UPDATED"  text="Failed to updated Account." />
+	<FailureMessage id="999003" code="KO_ACCOUNT_DELETED"  text="Failed to delete Account." />
+
+	<!--ACCOUNT TRANSACTION-->
+	<SuccessMessage id="108001" code="OK_ACCOUNT_TRANSACTION_ADDED" text="Account Payment Made successfully." />
+	<SuccessMessage id="108002" code="OK_ACCOUNT_TRANSACTION_DELETED"  text="Account Transaction Deleted successfully." />
+
+	<FailureMessage id="109003" code="KO_ACCOUNT_TRANSACTION_ADDED"  text="Account Payment Made Failure." />
+	<SuccessMessage id="109004" code="KO_ACCOUNT_TRANSACTION_DELETED"  text="Account Transaction Deleted Failure." />
+
+	<!--MIS INTEREST PAYMENT-->
+	<GeneralMessage id="8508" code="PAYABLE-DUEON" text="Sorry, Your first payable is due on : " />
+	<GeneralMessage id="8509" code="PAYABLE-REEMEED" text="No payables due.\n\nThe account has already been redeemed." />
+	<GeneralMessage id="8510" code="PAYABLE-NODUE" text="No payables due.\n\nThe account shows that all payments have been made." />
+	<GeneralMessage id="8511" code="PAYABLE-NEXTDUEDATE" text="No payables due.\n\nYour next payable is due on: " />
+	<!--LEAVE APPLICATION & APPROVALS-->
+	<GeneralMessage id="8601" code="FROMDATE_CAN'T_GREATER" text="From Date can't be greater than To Date." />
+
+	<!--MATURITY-->
+	<GeneralMessage id="8501" code="ACTIVE-LOAN" text="Sorry, You have a Loan with active status. So you can't Surrender your policy." />
+	<GeneralMessage id="8502" code="MATURITY-BEFOREDATE" text="You Can't Payment Before Maturity Date." />
+	<GeneralMessage id="8503" code="KO_NOT_ELIGIBLE_PREMATURITY" text="The customers who have deposited two or more installments can only avail maurity Amount." />
+	<GeneralMessage id="8504" code="PENDING-APPLICATION" text="You have already a Application with --PENDING-- status. Sorry You can not apply this Application again." />
+	<GeneralMessage id="8505" code="SELECT-APPLICANT" text="Please Select A Loan Applicant." />
+	<GeneralMessage id="8506" code="SANCTIONED_AMOUNT" text="Loan Approve Amount Can't Be Greater Than Apply Amount." />
+	<GeneralMessage id="8507" code="CLICK_REJECT" text="Please Click On Reject." />
+
+	<!--GENERAL MESSAGES-->
+	<GeneralMessage id="8000" code="KO_FILE_NOT_FOUND" text="The file doesn't exist." />
+	<GeneralMessage id="8001" code="KO_IMAGE_NOT_SELECTED" text="Upload a Profile Image." />
+	<GeneralMessage id="8002" code="FIELD_CAN_NOT_EMPTY" text="field_code can't left blank" />
+	<GeneralMessage id="8003" code="SELECTION_CAN_NOT_EMPTY" text="Choose One field_code" />
+	<GeneralMessage id="8004" code="PRIVILEGES_REQUIRED" text="Privileges required. You don't have enough permissions."/>
+	<GeneralMessage id="8005" code="PAGE_PERMISSION_DENIED" text="You don't have a permission to access the page. Please contact your supervisor." />
+
+	<GeneralMessage id="8101" code="ONLY_ALPHABET_FIELD" text="Please enter an alphabet only." />
+	<GeneralMessage id="8102" code="ONLY_NUMBER_FIELD" text="Please enter numbers only." />
+	<GeneralMessage id="8103" code="ONLY_NUMBER_RANGE" text="Please enter an number within #MIN#." />
+	<GeneralMessage id="8104" code="ONLY_TENURE_RANGE" text="Please enter an Month Between 1 To 36." />
+	<GeneralMessage id="8105" code="EXCEPT_ZERO" text="Please enter valid amount." />
+	<GeneralMessage id="8106" code="ONLY_DATE_FIELD" text="Please enter a date." />
+	<GeneralMessage id="8107" code="ONLY_SPECIFIC_DATE_FORMAT" text="Please enter a date like 01-Jan-1900." />
+	<GeneralMessage id="8108" code="ONLY_VALID_DATE" text="Please enter a valid date." />
+	<GeneralMessage id="8109" code="ONLY_VALID_AGE" text="Age must be greater than 0" />
+	<GeneralMessage id="8110" code="ONLY_VALID_NAME" text="Only A-Z, Space and dot" />
+	<GeneralMessage id="8112" code="ONLY_EMAIL_FIELD" text="Enter a correct email address." />
+	<GeneralMessage id="8113" code="USER_HAS_NO_EMAIL" text="This user doesn't have an email address attached with his record. Please contact your supervisor." />
+	<GeneralMessage id="8114" code="NOT_A_VALID_USER" text="This user id doesn't exists in our database. please specify a correct user id." />
+	<GeneralMessage id="8115" code="FORGOT_PWD_MAIL_SUBJECT" text="PASSWORD FOR #APP# " />
+	<GeneralMessage id="8116" code="IMAGE_VERIFY_FAILED" text="Image verificatin failed. Please type the text shown in the image. " />
+	<GeneralMessage id="8117" code="LEAVE_APPLICATION_MAIL_SUBJECT" text="LEAVE APPLICATION FOR #APP# " />
+
+
+	<GeneralMessage id="8201" code="REGEX_ALPHABETS_ONLY" text="Please enter an alphabet only." />
+	<GeneralMessage id="8202" code="REGEX_DATE" text="Please enter a date like 25-Jul-1983." />
+	<GeneralMessage id="8203" code="REGEX_EMAILID" text="Enter a correct email address." />
+	<GeneralMessage id="8204" code="REGEX_NUMBER_ONLY" text="Enter a number only." />
+	<GeneralMessage id="8205" code="REGEX_NUMBER_WITH_SPACE" text="Enter a number only. Space is allowed." />
+	<GeneralMessage id="8206" code="REGEX_NUMBER_GREATERTHANZERO" text="Must be number only and greater than Zero." />
+	<GeneralMessage id="8207" code="REGEX_CURRENCY_GREATERTHANZERO" text="Enter valid amount. Must not be zero." /> 
+	<GeneralMessage id="8208" code="REGEX_NAME" text="Enter valid Name. Only A-Z, Space and dot" />
+	<GeneralMessage id="8209" code="REGEX_ALPHANUMERIC" text="Only A-Z, a-z and 0-9." />
+	<GeneralMessage id="8210" code="REGEX_ALPHANUMERIC_MINUS" text="Only A-Z, a-z, 0-9 and (-) minus" />
+	<GeneralMessage id="8211" code="REGEX_ALPHANUMERIC_SPACE_DOT" text="Only A-Z, a-z, 0-9 and (.) (space)" />
+	<GeneralMessage id="8212" code="REGEX_MONTH_YEAR" text="Enter only Month and Year like Jul-1983 or 07-1983." />
+  <GeneralMessage id="8213" code="REGEX_TIME_GREATERTHANZERO" text="Enter valid Time. like 09.45" />
+  <GeneralMessage id="8214" code="REGEX_MOBILE_LENGTH" text="Enter valid Mobile Number" />
+
+
+	<GeneralMessage id="8304" code="MUST_GREATER_THAN_FIRST_DATE" text="End date can't less than Start date" />
+	<GeneralMessage id="8305" code="MUST_GREATER_THAN_PAYMENT-DATE" text="EMI Start date can't less than Payment Date" />
+
+	<GeneralMessage id="9001" code="SELECT_HEADTYPE" text="Please Select Head Type." />
+	<GeneralMessage id="9002" code="SELECT_ACCOUNT_HEAD" text="Please Select Account Head." />
+
+	<GeneralMessage id="11001" code="SELECT_ACCESS_TYPE" text="Please Select Access Type." />
+	<GeneralMessage id="11002" code="SELECT_ACCOUNT_NAME" text="Please Select Account Name." />
+	<GeneralMessage id="11003" code="SELECT_ONE" text="Please Choose One " />
+	<GeneralMessage id="11004" code="SELECT_PAYMENTMODE" text="Please Select mode Of Transaction" />
+
+	<!--USER SETTING-->
+	<SuccessMessage id="2000110" code="OK_USERSETTING_ADDED" text="User Setting  Updated successfully." />
+	<FailureMessage id="3000110" code="KO_USERSETTING_ADDED"  text="User Setting  Updated Failure." />
+
+
+	<SuccessMessage id="111001" code="OK_RECORD_UPDATED"  text="Successfully updated the record." />
+	<FailureMessage id="111002" code="KO_RECORD_UPDATED"  text="Failed to update the record." />
+	<FailureMessage id="111003" code="KO_RECORD_LOADED"  text="Failed to load the record." />
+
+	<!-- REPORTS-->
+	<FailureMessage id="111004" code="KO_SELECTION_CANT_BLANK"  text="Selection(s) can't left blank." />
+	<FailureMessage id="111005" code="KO_FAILED_TO_OPEN"  text="Sorry the report could not found." />
+
+	<GeneralMessage id="C001" code="CHART_ONLY_FOR_CHAIRMAN" text="Sorry! Only top management can see the charts!" />
+  
+  <!--ATTENDANCEAMMENDMENT-->
+  
+  <SuccessMessage id="40000000000013" code="OK_ATTENDANCEAMMENDMENT_DELETED" text="AttendanceAmmendment deleted successfully." />
+
+
+  <FailureMessage id="4000000000000003" code="KO_ATTENDANCEAMMENDMENT_DELETED" text="Failed to Delete the AttendanceAmmendment." />
+
+
+  <!--ATTENDANCEAMMENDMENT APPROVAL-->
+
+  <SuccessMessage id="4150013" code="OK_ATTENDANCEAMMENDMENTAPPLICATION_APRPOVED" text="successfully approved the Attendance application." />
+
+
+  <FailureMessage id="41500103" code="KO_ATTENDANCEAMMENDMENTAPPLICATION_APRPOVED" text="Sorry! failed to approve / reject the Attendance application.." />
+
+	<SuccessMessage id="1111111111" code="OK_SIGNUPSUCCESS"  text="UserName and Password Send Sucessfully To Your EmailID." />
+	<FailureMessage id="2222222222" code="KO_SIGNUPSUCCESS"  text="Sign Up Failure." />
+</Messages>
+

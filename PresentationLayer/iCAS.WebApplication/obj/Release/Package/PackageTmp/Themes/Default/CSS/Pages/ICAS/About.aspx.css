@@ -1,0 +1,37 @@
+﻿@import "TableStyle.css";
+
+.auto-style1
+{
+    width: 70px;
+}
+
+.auto-style2
+{
+    width: 65px;
+}
+
+.auto-style3
+{
+    width: 150px;
+}
+
+.auto-style4
+{
+    width: 200px;
+}
+
+#TheContainerICAS #WebFoot
+{
+    /*display: block;
+    float: left;
+    width: 1017px;
+    height: 37px;
+    font-family: Sans Serif;
+    font-size: .9em;
+    text-align: center;
+    color: #fff;
+    background: url(../Images/TSDC-FOOT.gif) right top repeat-x;
+    margin: 0px auto 0 auto;
+    padding-top: 7px;
+    background-color: rgb(30, 67, 114);*/
+}

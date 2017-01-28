@@ -1,0 +1,9 @@
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\bin\Release\ReadExcelFileApp.exe.config
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\bin\Release\ReadExcelFileApp.exe
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\bin\Release\ReadExcelFileApp.pdb
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.csprojResolveAssemblyReference.cache
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.Form1.resources
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.Properties.Resources.resources
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.csproj.GenerateResource.Cache
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.exe
+D:\ICAS-LATEST-TSDC\ReadExcelFileApp\ReadExcelFileApp\ReadExcelFileApp\obj\Release\ReadExcelFileApp.pdb

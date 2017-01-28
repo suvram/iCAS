@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ICAS_PRDN-Web.config Connection String" description="ICAS_PRDN Connection String used in web.config by the application to access the database." defaultValue="c2VydmVyPTE4NC4xNjguMTk0Ljc1O2RhdGFiYXNlPXRzZGNvbGxlZ2VfaWNhczt1aWQ9dHNkYztwd2Q9dHNkY0AxMjM0" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Kishor\\iCampusAutomationSystem\\PresentationLayer\\iCAS\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_PRDN']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_DEV1-Web.config Connection String" description="ICAS_DEV1 Connection String used in web.config by the application to access the database." defaultValue="U2VydmVyPU1VS1VMXFNRTEVYUFJFU1MyMDE0O2RhdGFiYXNlPXRzZGNvbGxlZ2VfaWNhczt1aWQ9c2E7cHdkPW1hYUAxMjM0" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Kishor\\iCampusAutomationSystem\\PresentationLayer\\iCAS\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_DEV1']/@connectionString" />
+  </parameter>
+  <parameter name="ICAS_DEV2-Web.config Connection String" description="ICAS_DEV2 Connection String used in web.config by the application to access the database." defaultValue="U2VydmVyPUdCLVNZUy1ERVYtMDAxXFNRTEVYUFJFU1MyMDE0O2RhdGFiYXNlPXRzZGNvbGxlZ2VfaWNhczt1aWQ9c2E7cHdkPWdiQDEyMzQ=" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Kishor\\iCampusAutomationSystem\\PresentationLayer\\iCAS\.WebApplication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ICAS_DEV2']/@connectionString" />
+  </parameter>
+</parameters>

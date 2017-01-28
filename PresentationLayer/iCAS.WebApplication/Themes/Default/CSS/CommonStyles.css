@@ -1,0 +1,163 @@
+﻿@import "DialogBox.css";
+/*
+@import "GridView.css";
+@import 'GridViewPagerStyle.css';
+@import "AjaxAccordion.css";
+@import "CustomisedMenu.ascx.css";
+
+@import "Calendar.css";
+*/
+
+/*----------------------------------------------------------------*/
+/* CSS FOR ALL THE PAGES OF THE MICRO ERP APPLIACTION, ALL THEMES */
+/*----------------------------------------------------------------*/
+
+
+
+#WebBody
+{
+	background-color: #FFFFFF;
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+}
+#WebTopMenuHeader
+{
+	color: #fff;
+	background-color: #000080;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #000080;
+	border-right: 1px solid #000080;
+    background: #000033 url(../../Common/Images/nav-repeat1.png) left -5px top repeat-x;
+    width: 996px;
+}
+#webHeaderWelcomeText {
+    width: 100%;
+    float: right;
+    margin-top: 51px;
+    text-align: right;
+    padding-right: 10px;
+}
+.DatabaseInfoText
+{
+	display:none;
+}
+
+#WebFooterAdmin
+{
+	color: #fff;
+	font-size: 8pt;
+	background-image: linear-gradient(#04519b, #044687 60%, #033769);
+    border-bottom: 1px solid #022241;
+	display:block;
+	float: left;
+	width: 100%;
+	height: 35px;
+	margin: 0px auto;
+	padding: 0;
+	bottom: 0;
+	display:block;
+	float:left;
+	position: relative;
+	text-align:center;
+}
+/*----------------------------------------------------------------*/
+/* CSS FOR BODY: THE LEFT COLUMN AND THE CONTENTS AT RIGHT COLUMN */
+/*----------------------------------------------------------------*/
+ 
+#WebBody #PageContent_RightColumn
+{
+}
+
+.FormButton_Top {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-top: 0px;
+}
+
+h1.PageTitle
+{
+	color: #191970;
+	border-bottom: 1px solid #A3C0E8;
+	background-image: url('../Images/H1PageTitleBg.gif');
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #E2F0FF;
+	padding-top: 4px;
+	padding-left: 6px;
+	min-height: 30px;
+	width: 100%;
+	font-family: Lato, sans-serif;
+	font-size: 12pt;
+}
+#WebBody #PageContent_RightColumn ul li.PageSubTitle
+{
+	background-color: #4b6c9e;
+	font-weight: bold;
+	color: #191970;
+	background: #E2F0FF url(../Images/BackgroundSubTitle_001.gif) repeat-x;
+}
+.FormButton_Top input
+{
+	background-image: url(../Images/bg_Button_Default.gif);
+	background-repeat: repeat-x;
+	color: #080808;
+    font-size: 1em;
+    padding: 5px;
+    font-weight: bold;
+}
+div#ContentPlaceHolderMicroERP_updatePanel_CustomerAccounts ul#CustomerAccounts div#ContentPlaceHolderMicroERP_panel_SelectedScroll.Panel
+{
+	width: 300px;
+}
+
+ul.MenuItems
+{
+	list-style-type: none;
+}
+ul.MenuItems li
+{
+	border-bottom: 1px solid #c0c0c0;
+	padding: 4px;
+}
+div.SupportImage
+{
+	width: 50%;
+	border: #ccc solid 1px;
+	display: block;
+	float: left;
+	height: 400px;
+	background-image: url(../Images/micro-customer-support.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+}
+#banner
+{
+	background: transparent url("../images/Homepage_Banner_01.jpg") no-repeat scroll 0 0;
+	height: 237px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+}
+#bannerContent
+{
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman" , Times, serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 130px 0 0 406px;
+}
+#BigErrorText
+{
+	font-size: 175%;
+	color: red;
+}
+.ErrorMessage
+{
+	font-size: 105%;
+	margin-top: 30px;
+	font-weight: bold;
+}
